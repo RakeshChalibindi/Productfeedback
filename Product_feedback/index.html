@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Product Feedback Portal</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+class="logo">
+
+<h1>Product Feedback Portal</h1>
+
+<form id="feedbackForm">
+
+<input
+type="text"
+id="customer"
+placeholder="Customer Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email"
+required>
+
+<select id="product">
+
+<option>Wireless Mouse</option>
+
+<option>Keyboard</option>
+
+<option>Monitor</option>
+
+<option>Headphones</option>
+
+<option>Laptop</option>
+
+</select>
+
+<select id="rating">
+
+<option>1</option>
+
+<option>2</option>
+
+<option>3</option>
+
+<option>4</option>
+
+<option>5</option>
+
+</select>
+
+<textarea
+id="feedback"
+placeholder="Write Feedback"></textarea>
+
+<button type="submit">
+
+Submit Feedback
+
+</button>
+
+</form>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
